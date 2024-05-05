@@ -11,25 +11,25 @@ const chalk = require('chalk')
 
 //contact details
 global.ownernomer = "2348022159244"
-global.ownername = "メ メ 𝐀𝐧𝐭𝐢𝐬𝐨𝐜𝐢𝐚𝐥 𝐇𝐮𝐦𝐢𝐝𝐢𝐭𝐲✝️"
+global.ownername = "𝔇𝔢𝔪𝔷𝔷𝔶🥇❤️‍🩹"
 global.ytname = "YT: Xeon"
 global.socialm = "GitHub: Feranmi245"
 global.location = "nigeria, lagos, abuja"
 
-global.ownernumber = '2348022159244'  //creator number
-global.ownername = '𝐀𝐧𝐭𝐢𝐬𝐨𝐜𝐢𝐚𝐥 𝐇𝐮𝐦𝐢𝐝𝐢𝐭𝐲✝️' //owner name
-global.botname = '𝐀𝐧𝐭𝐢𝐬𝐨𝐜𝐢𝐚𝐥 𝐌𝐃✝️' //name of the bot
+global.ownernumber = '2349091878122'  //creator number
+global.ownername = '𝔇𝔢𝔪𝔷𝔷𝔶🥇❤️‍🩹' //owner name
+global.botname = '𝔇𝔢𝔪𝔷𝔷𝔶🥇❤️‍🩹' //name of the bot
 
 //sticker details
-global.packname = 'Sticker By a legend'
-global.author = '𝐀𝐧𝐭𝐢𝐬𝐨𝐜𝐢𝐚𝐥 𝐇𝐮𝐦𝐢𝐝𝐢𝐭𝐲'
+global.packname = 'Sticker By'
+global.author = '𝔇𝔢𝔪𝔷𝔷𝔶🥇❤️‍🩹'
 
 //console view/theme
-global.themeemoji = '✝️'
+global.themeemoji = '🥇❤️‍🩹'
 global.wm = "Mofe Bot Inc."
 
 //theme link
-global.link = 'https://chat.whatsapp.com/C8f29luaMzT9lNUQ0UVyVm'
+global.link = 'https://chat.whatsapp.com/CHOR0WkQk8N6ZrhqQwnLqm'
 
 //custom prefix
 global.prefa = ['!','.','#','&']
