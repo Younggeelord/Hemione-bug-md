@@ -26,7 +26,7 @@ global.author = 'godspower'
 
 //console view/theme
 global.themeemoji = '🍁'
-global.wm = "Hermione Bot Inc."
+global.wm = "YG Bot Inc."
 
 //theme link
 global.link = ''
