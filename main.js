@@ -1,4 +1,4 @@
-require('./settings')
+norequire('./settings')
 const pino = require('pino')
 const { Boom } = require('@hapi/boom')
 const fs = require('fs')
@@ -21,7 +21,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "916909137213"
+let phoneNumber = "2348157319681"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
