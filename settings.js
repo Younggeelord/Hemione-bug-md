@@ -10,26 +10,26 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "2348022159244"
-global.ownername = "𝔇𝔢𝔪𝔷𝔷𝔶🥇❤️‍🩹"
+global.ownernomer = "2349125932419"
+global.ownername = "Henry the Tribal Mist"
 global.ytname = "YT: Xeon"
 global.socialm = "GitHub: Feranmi245"
 global.location = "nigeria, lagos, abuja"
 
-global.ownernumber = '2349091878122'  //creator number
-global.ownername = '𝔇𝔢𝔪𝔷𝔷𝔶🥇❤️‍🩹' //owner name
-global.botname = '𝔇𝔢𝔪𝔷𝔷𝔶🥇❤️‍🩹' //name of the bot
+global.ownernumber = '2349125932419'  //creator number
+global.ownername = 'Henry' //owner name
+global.botname = 'Tribal Bot' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = '𝔇𝔢𝔪𝔷𝔷𝔶🥇❤️‍🩹'
+global.author = 'Tribal Mist'
 
 //console view/theme
-global.themeemoji = '🥇❤️‍🩹'
-global.wm = "Mofe Bot Inc."
+global.themeemoji = '🐥'
+global.wm = "Henry Bot Inc."
 
 //theme link
-global.link = 'https://chat.whatsapp.com/CHOR0WkQk8N6ZrhqQwnLqm'
+global.link = '‎https://whatsapp.com/channel/0029VagvH9tLdQeiUYXE7V43'
 
 //custom prefix
 global.prefa = ['!','.','#','&']
@@ -41,7 +41,7 @@ global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
 global.anti212 = true //auto block +212 
-global.autoswview = false //auto view status/story
+global.autoswview = true //auto view status/story
 
 //menu type 
 //v1 is image menu, 
